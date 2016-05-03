@@ -9,8 +9,8 @@
 #' @return tagList
 #' @export
 helpPanel <- function(filePath, center = FALSE){
-if(is.null(filePath)) return(NULL)
-if(!file.exists(file.path())) return("")
+if(length(filePath) == 0) return(NULL)
+if(!file.exists(file.path(filePath))) return("")
 out = tagList(
   HTML("<center>"),
   tags$div(style = "max-width: 800px;",
