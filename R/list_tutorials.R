@@ -24,7 +24,7 @@ list_tutorials <- function(pkg = NULL, name = "tutorial", lang = "en",
   name = paste0(name, "_", lang, format)
 
   lst <- function(pkg){
-    out = file.path(system.file("doc", package = pkg), name)
+    out = file.path(system.file("text", package = pkg), name)
     if (file.exists(out)) return(out)
     NULL
   }
