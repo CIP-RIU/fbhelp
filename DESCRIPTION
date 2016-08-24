@@ -1,6 +1,6 @@
 Package: fbhelp
 Title: A Simple Help for Shiny Apps
-Version: 0.0.0.9000
+Version: 0.0.0.9002
 Authors@R: person("Reinhard ", "Simon",
     email = "R.SIMON@CGIAR.ORG", role = c("aut", "cre"))
 Description: Provides functions to implement multi-lingual hover tips and
