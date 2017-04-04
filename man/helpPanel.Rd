@@ -20,4 +20,3 @@ Creates a panel to insert a vignette in a centered way.
 \author{
 Reinhard Simon
 }
-

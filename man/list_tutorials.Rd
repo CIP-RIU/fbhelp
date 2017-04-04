@@ -33,4 +33,3 @@ where lang should be a two letter code.
 \author{
 Reinhard Simon
 }
-
