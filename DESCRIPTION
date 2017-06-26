@@ -3,6 +3,7 @@ Title: A Simple Help for Shiny Apps
 Version: 0.0.0.9005
 Authors@R: person("Reinhard ", "Simon",
     email = "R.SIMON@CGIAR.ORG", role = c("aut", "cre"))
+Maintainer: Ivan Perez <i.perez@cgiar.org>
 Description: Provides functions to implement multi-lingual hover tips and
     tutorial pages.
 Depends:
